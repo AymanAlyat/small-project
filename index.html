@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>small project</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7"
+      crossorigin="anonymous"
+    />
+         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <!--  الكاروسيل جاهز من بوت ستراب-->
+      <div
+        id="carouselExampleAutoplaying"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active position-relative">
+            <!--  overlay : هاذ يعني زي طبقه فوق المحتوي زي حرام بعمله بوزشن ابسليوت ورلتف وبمده عالمحتوى عن طريق بخلي كل اطرافه صفر وبعدين بعطيه شفافيه-->
+
+            <div
+              class="overlay position-absolute top-0 bottom-0 end-0 start-0 bg-black opacity-50"
+            ></div>
+
+            <img src="cours.avif" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <div
+              class="overlay position-absolute top-0 bottom-0 end-0 start-0 bg-black opacity-50"
+            ></div>
+            <img src="cours.avif" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <div
+              class="overlay position-absolute top-0 bottom-0 end-0 start-0 bg-black opacity-50"
+            ></div>
+            <img src="cours.avif" class="d-block w-100" alt="..." />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </header>
+    <main>
+      <section class="my-5">
+        <div class="container">
+          <!-- بدي استخدم الجرد سستم اللي موجود في بووت ستراااب فبعمل رووو وبقسموا الى كولوم -->
+          <div class="row g-2 align-items-center">
+            <div class="col-md-4 "><!-- من شاشات الميديوم واطلع  اعملهن 4كولوم -->
+              <!-- هون اخذت 4 كولوم من اصل 12 للمربع الاخضر الكبير -->
+              <div class="bg-success p-4 text-light rounded-1">
+              <h2>Why Choose Mentor?</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis
+                aute irure dolor in reprehenderit Asperiores dolores sed et.
+                Tenetur quia eos. Autem tempore quibusdam vel necessitatibus
+                optio ad corporis.
+              </p>
+              <a href="" class="btn text-light rounded-pill px-4 bg-ylmaz">Learn More</a>
+            </div>
+            </div>
+             <div class="col-md-8">
+
+              <div class="row g-2">
+                <div class="col-md-4">
+
+                  <!-- كارد جاهزه من بووت ستراب -->
+                  <div class="card d-flex justify-content-center align-items-center text-center p-4" >
+                    <div class="icone bg-success1 text-success rounded-pill d-flex justify-content-center align-items-center fs-2">
+                    <i class="fa-solid fa-file-invoice  "></i>
+                  </div>
+                    <div class="card-body">
+                      <h5 class="card-title">Corporis voluptates sit</h5>
+                      <p class="card-text">Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
+                    </div>
+                  </div>
+
+                </div>
+
+                <div class="col-md-4">
+                  <!-- كارد جاهزه من بووت ستراب -->
+                  <div class="card d-flex justify-content-center align-items-center text-center p-4" >
+                    <div class="icone bg-success1 text-success rounded-pill d-flex justify-content-center align-items-center fs-2">
+                    <i class="fa-solid fa-file-invoice  "></i>
+                  </div>
+                    <div class="card-body">
+                      <h5 class="card-title">Corporis voluptates sit</h5>
+                      <p class="card-text">Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
+                    </div>
+                  </div>
+
+                </div>
+
+                <div class="col-md-4">
+                  <!-- كارد جاهزه من بووت ستراب -->
+                  <div class="card d-flex justify-content-center align-items-center text-center p-4" >
+                    <div class="icone bg-success1 text-success rounded-pill d-flex justify-content-center align-items-center fs-2">
+                    <i class="fa-solid fa-file-invoice  "></i>
+                  </div>
+                    <div class="card-body">
+                      <h5 class="card-title">Corporis voluptates sit</h5>
+                      <p class="card-text">Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
+                    </div>
+                  </div>
+
+                </div>
+
+              </div>
+             </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

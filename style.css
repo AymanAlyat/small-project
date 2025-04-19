@@ -1,0 +1,15 @@
+.bg-ylmaz{
+    background-color: rgba(255, 255, 255, 0.2) !important;
+}
+.bg-ylmaz:hover{
+    color:green !important;
+    background-color: white !important;
+
+}
+.icone{
+    width: 75px;
+    height: 75px;
+}
+.bg-success1{
+    background-color:#ecf9f0;
+}
